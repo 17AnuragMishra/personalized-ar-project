@@ -1,0 +1,66 @@
+/* src/pages/Home.module.css */
+
+.homeContainer {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+  }
+  
+  .header {
+    margin-bottom: 50px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+  }
+  
+  .ctaButton {
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #c0392b;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 250px;
+  }
+  
+  .featureTitle {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+  
+  .featureDescription {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  

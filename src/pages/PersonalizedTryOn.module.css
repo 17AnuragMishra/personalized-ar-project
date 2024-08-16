@@ -1,0 +1,40 @@
+/* src/pages/PersonalizedTryOn.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .selector {
+    margin-bottom: 20px;
+  }
+  
+  .viewer {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .viewer canvas {
+    width: 100%;
+    height: 100%;
+  }
+  
